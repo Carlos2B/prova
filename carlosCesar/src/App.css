@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #80a2e4;
+  width: 94vw;
+  padding: 2vw;
+  color: rgb(0, 0, 0);
+}
+
+.club-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vw;
+}
+
+.club-card {
+  background: #80a2e4;
+  border: 1px solid #4b4b4b;
+  border-radius: 32px;
+  margin: 1vw;
+  padding: 1vw;
+  width: 15vw;
+  text-align: center;
+}
+
+.club-card img {
+  max-width: 6vw;
+}
+
+@media screen and (max-width:600px){
+  
+.club-card{
+  width: 35vw
+}
+
+}

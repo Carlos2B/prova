@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #100D28;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 60px;
+  
+}
+
+header img{
+  width: 80px;
+}
+
+h1{
+  color: white;
+}
+
+body{
+  background-color: #F9F9F9;
+}
+
+
+.container {
+  display: flex;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.Alicia {
+  width: 30vw; 
+  height: auto;
+}
+
+.texto{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.button-container {
+  display: flex;
+  gap: 25px; 
+  margin-top: 40px; 
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.config {
+  background-color: #838B8C;
+  color: white;
+  height: 40px;
+  width: 12vw;
+}
+
+.config:hover {
+  background-color: #656e71;
+}
+
+.saldo {
+  background-color: #838B8C;
+  color: white;
+  height: 40px;
+  width: 8vw;
+}
+
+.saldo:hover {
+  background-color:  #656e71;
+}
+
+hr{
+  border: none;
+  border-top: 2px solid #dfdfdf; 
+}
+
+.videos img{
+  display: inline-block;
+  width: 20vw;
+  height: 18vh;
+  padding: 13px;
+}
+
+.videos{
+  white-space: nowrap;
+  margin: 0;
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.videos button{
+  width: 5vw;
+  height: 10vh;
+  border-radius: 50px;
+  border-color: black;
+}
+
+@media screen and (max-width:600px){
+
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  h3{
+    font-size: 10px;
+  }
+ 
+  .texto{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 25px; 
+    margin-top: 40px; 
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .config {
+    background-color: #838B8C;
+    color: white;
+    height: 40px;
+    width: 32vw;
+  }
+  
+  .config:hover {
+    background-color: #656e71;
+  }
+  
+  .saldo {
+    background-color: #838B8C;
+    color: white;
+    height: 40px;
+    width: 20vw;
+  }
+  
+  .saldo:hover {
+    background-color:  #656e71;
+  }
+
+  .videos img{
+    display: inline-block;
+    width: 40vw;
+    height: 18vh;
+    padding: 13px;
+  }
+  
+  .videos{
+    white-space: nowrap;
+    margin: 0;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .videos button{
+    width: 8vw;
+    height: 10vh;
+    border-radius: 50px;
+    border-color: black;
+    font-size: 10px;
+  }
+  
+
+  }

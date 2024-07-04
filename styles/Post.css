@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  .voltar{
+    background-color: #100D28;
+    border: 2px solid;color: white;
+    border-radius: 22px;
+  }
+  
+  header{
+    background-color: #100D28;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+  }
+  
+  header h1{
+    color: white;
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  
+  header img{
+    width: 6.5vw;
+  }
+  
+  header button{
+    height: 5vh;
+    width: 5vw;
+  }
+  
+  .videos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .video-item {
+    text-align:start;
+    margin: 10px;
+  }
+  
+  .video-item img {
+    width: 20vw; 
+    height: auto;
+  }
+  
+  .video-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }

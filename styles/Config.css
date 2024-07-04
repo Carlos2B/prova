@@ -1,0 +1,80 @@
+
+header{
+  background-color: #100D28;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 60px;
+  
+}
+
+header img{
+  width: 80px;
+}
+
+h1{
+  color: white;
+}
+
+body{
+  background-color: #F9F9F9;
+}
+
+
+.container {
+  display: flex;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.Alicia {
+  width: 30vw; 
+  height: auto;
+}
+
+.inputs input{
+  width: 60vw;
+  height: 5vh;
+  margin-bottom: 25px; 
+  box-sizing: border-box; 
+  border: 2px solid #838B8C; 
+  border-radius: 7px; 
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.bio input{
+  width: 83.7vw;
+  height: 30vh;
+  margin-bottom: 25px; 
+  border: 2px solid #838B8C; 
+  border-radius: 7px; 
+}
+
+.bio{
+  padding-left: 120px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.bio label{
+  color: #7b7e7e;
+}
+
+@media screen and (max-width:600px){
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  .bio {
+    padding-left:  30px;
+  }
+}

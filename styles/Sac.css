@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.containerS{
+background-color: #100D28;
+width: 40vw;
+height: 80vh;
+display: flex;
+flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.containerS h1{
+background-color: #100D28;
+text-align: center;
+margin-top: 1vw;
+}
+
+.containerS p{
+background-color: #100D28;
+font-size: 24px;color: #fff;
+text-align: center;
+margin-top: 3vw;
+}
+
+.containerS label{
+background-color: #100D28;
+font-size: 22px;
+color: #fff;
+}
+
+.containerS form{
+    background-color: #100D28;
+}
+
+.containerS input{
+background-color: #ffffff;
+font-size: 12px;
+border: 2px solid;color: white;
+}
+
+.containerS button{
+    width: 10vw;
+    height: 4vh;
+    border: 2px solid;color: #fff;
+    border-radius: 32px;
+   background-color: #100D28;
+}
+
+@media screen and (max-width:600px){
+    .containerS{
+        width: 60vw;
+    }
+
+    .containerS label{
+        font-size: 14px;
+    }
+
+    .containerS form{
+        margin-right: 60px;
+    }
+
+    .containerS input{
+        width: 40vw;
+    }
+
+    .containerS button{
+        width: 35vw;
+    }
+}

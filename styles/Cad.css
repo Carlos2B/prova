@@ -1,0 +1,174 @@
+.telaCad{
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.Cad2{
+  width: 80vw;
+  height: 50vh;
+  background-color: white;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Cad2 button{
+  width: 25vw;
+  height: 10vh;
+border: 1px solid #000000;
+border-radius: 22px;
+background-color: #ffffff;
+
+}
+
+  .Cad{
+    width: 35vw;
+    height: 50vh;
+    background-color:  #100D28;  
+    text-align: center;
+    border-radius: 15px;
+    border-right: 20px solid rgb(255, 255, 255);
+  }
+
+  .Cad a{
+    color: white;
+  }
+  
+  .Cad h1{
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+  }
+  
+  .Cad button{
+    width: 20vw;
+    height: 5vh;
+    font-size: 17px;color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 32px;
+    background-color: #100D28;
+  }
+  
+  .telaCad form{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 35vw;
+    height: 35vh;
+    padding-left: 60px;
+    color: rgb(0, 0, 0);
+    line-height: 1.7;
+  }
+
+  .form{
+    width: 25vw;
+    height: 20vh;
+    padding: 10px;
+  }
+
+  .form input{
+    padding: 5px;
+    width: 20vw;
+    font-size: 8px;
+    border: 1px solid  rgb(0, 0, 0);
+    border-radius: 32px;
+  }
+
+  @media screen and (max-width:600px){
+
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    .telaCad{
+      background-color: #000000;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .Cad2{
+        width: 80vw;
+        height: 50vh;
+        background-color: white;
+        border-radius: 32px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .Cad2 button{
+        width: 20vw;
+        height: 10vh;
+        font-size: 10px;
+      border: 1px solid #000000;
+      border-radius: 22px;
+      background-color: #ffffff;
+      
+      }
+      
+      .Cad{
+        width: 35vw;
+        height: 50vh;
+        background-color:  #100D28;  
+        text-align: center;
+        border-radius: 15px;
+        border-right: 20px solid rgb(255, 255, 255);
+      }
+      
+    
+      .Cad a{
+        color: white;
+        font-size: 10px;
+      }
+      
+      .Cad h1{
+        color: white;
+        padding: 20px;
+        font-size: 14px;
+      }
+      
+      .Cad button{
+        width: 20vw;
+        height: 7vh;
+        font-size: 10px;color: #ffffff;
+        border: 2px solid #ffffff;
+        border-radius: 32px;
+        background-color: #100D28;
+        margin-right: 0;
+        margin-top: 1vw;
+      }
+      
+      .telaCad form{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        width: 35vw;
+        height: 35vh;
+        padding-left: 60px;
+        color: rgb(0, 0, 0);
+        line-height: 1.7;
+      }
+    
+      .form{
+        width: 25vw;
+        height: 20vh;
+        padding-top: 3vw;
+        font-size: 12px;
+      }
+    
+      .form input{
+        width: 16vw;
+        font-size: 8px;
+        border: 1px solid  rgb(0, 0, 0);
+        border-radius: 32px;
+      }
+
+    }

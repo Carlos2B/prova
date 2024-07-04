@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  header{
+    background-color: #100D28;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 50px;
+    justify-content: space-between;
+  }
+  
+  input{
+    height: 5vh;
+    width: 40vw;
+    border-radius: 8px;
+    margin: 0 auto;
+  }
+  
+  button{
+    height: 5.5vh;
+    width: 5vw;
+    border-radius: 8px;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .container img{
+    width: 40px; /* Ajuste conforme necessário */
+    height: auto;
+    margin-right: 20px; /* Espaço entre a imagem e o título */
+  }
+  
+  .container h3{
+    margin: 0;
+    font-size: 20px; /* Ajuste conforme necessário */
+  }

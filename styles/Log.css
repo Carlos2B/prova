@@ -1,0 +1,159 @@
+.Telalog{
+  background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .log{
+    width: 80vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  
+  .log2{
+    width: 35vw;
+    height: 50vh;
+    background-color:  #100D28;  
+    text-align: center;
+    border-radius: 15px;
+    border-left: 20px solid rgb(255, 255, 255);
+  }
+  
+
+  .log2 a{
+    color: white;
+  }
+  
+  .log2 h1{
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+  }
+  
+  .log2 button{
+    width: 20vw;
+    height: 7vh;
+    font-size: 17px;color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 32px;
+    background-color: #100D28;
+    margin-right: 0;
+    margin-top: 1vw;
+  }
+  
+  .Telalog form{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 35vw;
+    height: 35vh;
+    padding-left: 60px;
+    color: rgb(0, 0, 0);
+    line-height: 1.7;
+  }
+
+  form{
+    width: 25vw;
+    height: 20vh;
+    padding-top: 3vw;
+    margin-left: 5vw;
+  }
+
+  form input{
+    width: 20vw;
+    font-size: 8px;
+    border: 1px solid  rgb(0, 0, 0);
+    border-radius: 32px;
+  }
+
+  @media screen and (max-width:600px){
+
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    .Telalog{
+      background-color: #000000;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .log{
+        width: 80vw;
+        height: 50vh;
+        background-color: white;
+        border-radius: 32px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+      }
+      
+      .log2{
+        width: 35vw;
+        height: 50vh;
+        background-color:  #100D28;  
+        text-align: center;
+        border-radius: 15px;
+        border-left: 20px solid rgb(255, 255, 255);
+      }
+      
+    
+      .log2 a{
+        color: white;
+        font-size: 10px;
+      }
+      
+      .log2 h1{
+        color: white;
+        padding: 20px;
+        font-size: 14px;
+      }
+      
+      .log2 button{
+        width: 20vw;
+        height: 7vh;
+        font-size: 10px;color: #ffffff;
+        border: 2px solid #ffffff;
+        border-radius: 32px;
+        background-color: #100D28;
+        margin-right: 0;
+        margin-top: 1vw;
+      }
+      
+      .Telalog form{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        width: 35vw;
+        height: 35vh;
+        padding-left: 60px;
+        color: rgb(0, 0, 0);
+        line-height: 1.7;
+      }
+    
+      form{
+        width: 25vw;
+        height: 20vh;
+        padding-top: 3vw;
+        margin-left: 5vw;
+        font-size: 12px;
+      }
+    
+      form input{
+        width: 20vw;
+        font-size: 8px;
+        border: 1px solid  rgb(0, 0, 0);
+        border-radius: 32px;
+      }
+
+    }
